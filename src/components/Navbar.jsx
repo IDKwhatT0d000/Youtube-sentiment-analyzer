@@ -23,6 +23,11 @@ const Navbar = () => {
         >
           Instagram
         </NavLink>
+        <NavLink
+          to="/amazon"
+          className={({ isActive }) => (isActive ? 'text-blue-500 border-b-2 border-blue-500 pb-1' : 'text-white')}>
+          Amazon
+        </NavLink>
       </nav>
     </header>
   );
