@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 import Home from './components/Home';
 import Youtube from './components/Youtube';
 import Instagram from './components/Instagram';
-
+import Amazon from './components/Amazon';
 const App = () => {
   return (
     <BrowserRouter>
@@ -13,6 +13,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/youtube" element={<Youtube />} />
         <Route path="/instagram" element={<Instagram />} />
+        <Route path="/amazon" element={<Amazon/>}></Route>
       </Routes>
     </BrowserRouter>
   );
